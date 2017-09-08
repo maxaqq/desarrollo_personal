@@ -1,0 +1,71 @@
+.contenedor .contenedor-respuesta {
+    width: 100%;
+    height: 450px;
+
+    margin-top: 24px;
+
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-respuesta .pointer {
+    width: 80%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.47);
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+
+}
+
+.contenedor-respuesta .pointer span {
+    color: #fff;
+    font-size: 4.1em;
+    line-height: normal;
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.contenedor-respuesta .pointer:hover span {
+    color: #17bb69;
+    font-size: 4.4em;
+
+}
+
+.contenedor-respuesta .pointer:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 350px) {
+    .contenedor-respuesta .pointer span {
+        color: #fff;
+        font-size: 3.1em;
+        line-height: normal;
+        text-align: center;
+        font-family: 'Gochi Hand', cursive;
+
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        -ms-transition: all .4s ease;
+        -o-transition: all .4s ease;
+        transition: all .4s ease;
+    }
+
+    .contenedor-respuesta .pointer:hover span {
+        color: #17bb69;
+        font-size: 3.4em;
+
+    }
+}

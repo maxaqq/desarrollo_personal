@@ -1,0 +1,164 @@
+ * {
+     padding-top: 0;
+     margin: 0;
+     -webkit-box-sizing: border-box;
+ }
+
+footer .redes .contenedor-redes {
+    width: 65%;
+    height: 100%;
+   padding: 20px;
+
+
+    /*Flex*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .redes .contenedor-redes .menu-redes {
+    width: 90%;
+    height: 90px;
+
+
+    border-radius: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+
+div .redes-sociales {
+    width: 83px;
+    height: 90px;
+    border-radius: 0;
+
+
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+#uno {
+    background: rgb(208, 101, 3);
+}
+#dos {
+    background: rgb(233, 147, 26);
+}
+#tres {
+    background: rgb(22, 145, 190);
+}
+#cuatro {
+    background: rgb(22, 107, 162);
+}
+#cinco {
+    background: rgb(27, 54, 71);
+}
+#seis {
+    background: rgb(21, 40, 54);
+}
+
+footer .redes-sociales .icon {
+    color: rgb(233, 233, 233);
+    margin-top: 15px;
+    font-size: 1.4em;
+    background-color: rgba(255,255,255,.15);
+    padding: 10px;
+
+    -webkit-border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 0px 15px rgba(255, 255, 255, .0);
+
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+footer .redes-sociales .texto {
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    margin-bottom: 5px;
+    opacity: .8;
+}
+
+footer .redes-sociales:hover {
+    height: 105px;
+
+}
+
+footer .redes-sociales:hover .icon {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255,255, 0.5);
+}
+
+.descripcion-1 {
+    border-top: 4px solid #ccc;
+    font-family: 'Kalam', cursive;
+    font-size: 1.1em;
+    text-align: center;
+    width: 80%;
+    color: #fff;
+
+    position: relative;
+    bottom: 30px;
+}
+
+footer .redes .formulario {
+    width: 35%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.53);
+    box-sizing: border-box;
+    
+    max-height: 400px;
+
+    /*FLEX*/
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-footer-last {
+    width: 100%;
+    height: 12%;
+    color: #fff;
+    background: #000;
+    margin: 5px;
+    /*Flex*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.contenedor-footer-last a {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    color: #fff;
+    text-decoration: none;
+
+
+}
+
+.contenedor-footer-last a:hover{
+    color: rgb(226, 139, 28);
+    font-size: 1.1em;
+
+}
